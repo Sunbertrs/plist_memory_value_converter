@@ -18,7 +18,7 @@ def val_mb():
     input("\nPress [enter] to back to menu.")
 
 def hex_val():
-    mem_hex = input("\nType the value: ")
+    mem_hex = input("\nType the hexadecimal (remove '0x'): ")
     mem_data = "".join(mem_hex[i-2:i] for i in range(len(mem_hex), 0, -2))
     print("\nValue you should type:", mem_data)
     input("\nPress [enter] to back to menu.")
