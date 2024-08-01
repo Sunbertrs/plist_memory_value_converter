@@ -17,14 +17,22 @@ def val_mb():
     print("The value stands for", mem, "MB")
     input("\nPress [enter] to back to menu.")
 
+def hex_val():
+    mem_hex = input("\nType the value: ")
+    mem_data = "".join(mem_hex[i-2:i] for i in range(len(mem_hex), 0, -2))
+    print("\nValue you should type:", mem_data)
+    input("\nPress [enter] to back to menu.")
+    
 while True:
     os.system("cls" if os.name=="nt" else "clear")
-    print("\nPlist 'memory value in type data' converter\n")
-    print("1. MB to value \t2. Value to MB\n0. Exit")
+    print("\nPlist 'memory value data' converter\n")
+    print("1. MB to value \n2. Value to MB\n3. Hexadecimal to value\n\n0. Exit")
     tmp = input("Type your selection: ")
     if tmp == "1":
         mb_val()
     if tmp == "2":
         val_mb()
+    if tmp == "3":
+        hex_val()
     if tmp == "0":
         quit()
