@@ -1,4 +1,4 @@
-# plist_memory_value_converter
+# plist_memory_value_counter
 
 A small script to count the memory value you should type in config.plist.
 
