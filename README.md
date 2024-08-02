@@ -14,7 +14,7 @@ Hopes it could help you too.
 
 ## Usage
 
-Option 1 and 2 can convert the memory you want to the value that OpenCore/Clover can read, or convert them back.
+Option 1 and 2 can convert the memory you want to the value that OpenCore/Clover can read, or convert them back. (Please use plist editor for modify or you need to encrypt the value with base64 encode)
 
 E.g. Choose `1. MB to value` and type `12` (MB), it will return `Value you should type: 0000c000`. Then, type this value `0000c000` for `framebuffer-stolenmem` or where you need to.
 
