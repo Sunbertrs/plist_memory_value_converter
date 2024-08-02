@@ -10,7 +10,7 @@ However, it was a little difficult to calculate the values in framebuffer, `PciR
 
 Hopes it could help you too.
 
->  At last, I finally got to the install interface by changing the value of `AAPL,ig-platform-id` to `78563412`, which is the default value in a clover `config.plist`... Yeh, for some situation that you stuck at `gIOScreenLock...` you can try this universal value, after many times' modify following the dortania's tutorial.
+>  At last, I finally got to the install interface by changing the value of `AAPL,ig-platform-id` to `78563412`, which is the default value in a clover `config.plist`... Yeh, for some situation that you stuck at `gIOScreenLock...` you can try this universal value, after many times' changing following the dortania's tutorial but don't work.
 
 ## Usage
 
